@@ -6,7 +6,6 @@
     margin: 0;
 }
 
-
 .container{
     background-color: rgb(255, 255, 255);
     height: 11vh;
@@ -14,13 +13,9 @@
     display: flex;
     position: fixed;
     top: 0;
-   
-    
 }
 
-.child {
-   
-    
+.child { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,9 +59,7 @@
     background-image: url("https://www.esenzzia.com/modules/ps_imageslider/images/f84a8567c559b194fc58867a27b495da22b8a449_Post%20de%20Instagram%20rebajas%20ofertas%20descuentos%20femenino%20rosa%20(1947%C2%A0%C3%97%C2%A0876%C2%A0px)%20(1).png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-    
-    
+    background-size:cover; 
 }
 
 .child-button-uno{
@@ -93,22 +86,22 @@
 
 
 .child-button-dos{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 10px;
-margin-right: 30px;
-padding: 20px 10px;
-background-color: black;
-color: white;
-border-radius: 50px;
-font-size: 12px;
-font-weight: 700;
-width: 80px;
-height: 40px;
-border: 2px solid white;
-position: fixed;
-left: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-right: 30px;
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 80px;
+    height: 40px;
+    border: 2px solid white;
+    position: fixed;
+    left: 90%;
 }
 
 .child-button-dos:hover{
@@ -151,21 +144,18 @@ left: 90%;
 }
 
 .container3-child2{
-width: 100vh;
-height: 70vh ;
-font-size: 250px;
-color: rgb(124, 117, 117);
-text-align: center;
-border:none;
-text-decoration-line: underline; 
-
+    width: 100vh;
+    height: 70vh ;
+    font-size: 250px;
+    color: rgb(124, 117, 117);
+    text-align: center;
+    border:none;
+    text-decoration-line: underline; 
 }
 
 
 .container3-child3{
-
-    display: flex;
-   
+     display: flex;
     align-self: flex-end;
     width: 100vh;
     height: 27vh;
@@ -174,7 +164,6 @@ text-decoration-line: underline;
 }
 
 .container3-child3-1{
-
   background-color: #fff;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
