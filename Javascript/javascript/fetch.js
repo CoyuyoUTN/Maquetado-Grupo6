@@ -12,11 +12,11 @@ function showData(data) {
     <div class="test animate__animated animate__fadeInLeft">
         
             <h1 class="title ">${data[i].title}</h1>
-        <ol>
-            <li><h3>id: ${data[i].id}</h3></li>
-            <li><p>userId: ${data[i].userId}</p></li>
-            <li><p>Status: ${data[i].completed}</p></li>
-        </ol>
+        
+            <h3 class="bl dl">id: ${data[i].id}</h3></li>
+            <p class="bl dl">userId: ${data[i].userId}</p></li>
+            <p class="bl dl">Status: ${data[i].completed}</p></li>
+        
     </div>
 
         `;
