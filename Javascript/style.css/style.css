@@ -40,3 +40,11 @@
 .dl{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
+
+.true{
+    background-color: green;
+}
+
+.false{
+    background-color: red;
+}

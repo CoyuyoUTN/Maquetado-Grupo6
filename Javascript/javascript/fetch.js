@@ -15,7 +15,8 @@ function showData(data) {
         
             <h3 class="bl dl">id: ${data[i].id}</h3></li>
             <p class="bl dl">userId: ${data[i].userId}</p></li>
-            <p class="bl dl">Status: ${data[i].completed}</p></li>
+            <p class="bl dl ${
+              data[i].completed === true ? "true" : "false" }" >Status: ${data[i].completed}</p></li>
         
     </div>
 
